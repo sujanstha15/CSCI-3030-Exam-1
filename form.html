@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <div class="form-container">
+        <h2> Register for the Event</h2>
+        <form action="https://script.google.com/macros/s/AKfycbyHS7dsVL2rcOk2AY7wvsvosLUbHn20omiJ8_CpPdXzznG83zlrr-aW9gt-QaJthiRTQg/exec" target="_blank" method="POST">
+            <label for="name">Full Name:</label>
+            <input type="text" name="name" id="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" required>
+
+            <label for="phoneNumber">Phone Number:</label>
+            <input type="tel" name="phoneNumber" id="phoneNumber" required>
+
+            <label for="classification">Classification:</label>
+            <div class="radio-group">
+                <label><input type="radio" name="classification" value="freshman" required> Freshman</label>
+                <label><input type="radio" name="classification" value="sophomore"> Sophomore</label>
+                <label><input type="radio" name="classification" value="junior"> Junior</label>
+                <label><input type="radio" name="classification" value="senior"> Senior</label>
+            </div>
+
+            <label for="interest">Area of Interest in Computer Science:</label>
+            <input type="text" name="interest" id="interest" required>
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>
